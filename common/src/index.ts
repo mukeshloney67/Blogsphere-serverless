@@ -1,4 +1,4 @@
-import z from "zod"
+import {z} from "zod"
 
 // signup inputs
 export const signupInput = z.object({
