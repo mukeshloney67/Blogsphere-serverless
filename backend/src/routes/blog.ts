@@ -2,7 +2,7 @@ import { PrismaClient } from "@prisma/client/edge";
 import { withAccelerate } from "@prisma/extension-accelerate";
 import { Hono } from "hono";
 import { verify } from "hono/jwt";
-import { createBlogInput, updateBlogInput } from "@mukeshloney/medium-common";
+import { createBlogInput, updateBlogInput } from "@mukeshloney/medium-blog";
 
 export const blogRouter = new Hono<{
         Bindings: {
@@ -125,21 +125,3 @@ export const blogRouter = new Hono<{
     })
 
    
-
-
-
-// import { Hono } from "hono";
-// import { verify } from "hono/jwt";
-// 
-// blogRouter.use('/api/avi/blog/*', async (c, next)=>{
-//     const header = c.req.header('authorization') || " ";
-//     const token = header.split(" ")[1];
-//     const response = await verify(token, c.env.JWT_SECRET)
-//     if(response.id){
-//       await next();
-//     } else{
-//       c.status(404)
-//       return c.json({message: "Unauthorized"});
-//     }
-//   })
-  
