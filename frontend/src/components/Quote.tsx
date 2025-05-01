@@ -8,10 +8,10 @@ export const Quote = () => {
             "Every voice has a story, every story deserves to be heard. Join Blogosphere — where your words inspire, connect, and leave a mark on the world."
            </div>
            <div className="max-w-md mt-4 text-lg font-semibold">
-            Steve Doe
+            Mukesh Kumar
         </div>
         <div className="max-w-md text-sm text-slate-600">
-            CEO | Acme corp
+            
         </div>
         </div>
     </div> 
