@@ -19,7 +19,7 @@ Welcome to **Blogosphere** — a modern platform where writers, thinkers, and re
 
 | Frontend      | Backend        | Database       | Others              |
 | ------------- | -------------- | -------------- | -------------------- |
-| React / Next.js | Node.js / Express | MongoDB / PostgreSQL | Tailwind CSS, JWT Auth |
+| React  | Node.js |  PostgreSQL | Tailwind CSS, JWT Auth |
 
 ---
 
